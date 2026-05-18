@@ -1,0 +1,77 @@
+/* Estilos básicos y sencillos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Gris claro */
+    text-align: center; /* Centra todo el texto */
+    margin: 0;
+    padding: 20px;
+}
+
+
+.contenedor {
+    max-width: 650px;
+    margin: 0 auto; 
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #cccccc; /* Borde gris */
+}
+
+/* Foto de perfil */
+img {
+    border-radius: 50%; /* Redondear la foto */
+    width: 150px;
+    height: 150px;
+}
+
+/* Títulos */
+h1 {
+    color: #111111;
+}
+
+h2 {
+    color: #222222;
+    border-bottom: 1px solid #222222; /* Línea negra debajo del título */
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #444444;
+    margin-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+    color: #333333;
+    line-height: 1.5;
+}
+
+/* Listas centradas y puntos alineados a la izquierda */
+ul {
+    display: inline-block;
+    text-align: left;
+    margin: 10px 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Habilidades e idiomas */
+aside {
+    background-color: #f9f9f9;
+    border: 1px dashed #666666; /* Borde discontinuo (lo e encontrado buscando en google) */
+    padding: 15px;
+    margin-top: 25px;
+}
+
+/* Enlaces */
+footer {
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+footer a {
+    color: blue; /* Azul para el enlace */
+    margin: 0 10px;
+}
