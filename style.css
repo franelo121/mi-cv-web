@@ -71,6 +71,56 @@ footer {
 }
 
 footer a {
-    color: blue; /* Azul para el enlace */
+    color: blue; 
     margin: 0 10px;
+}
+
+
+button {
+    background-color: #444444;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #111111;
+}
+
+
+.tema-nuevo {
+   
+    background-color: #2c3e50; 
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.tema-nuevo .contenedor {
+    background-color: #34495e; 
+    border-color: #2c3e50;
+}
+
+
+.tema-nuevo h1, 
+.tema-nuevo h2, 
+.tema-nuevo h3, 
+.tema-nuevo p, 
+.tema-nuevo li {
+    color: #ecf0f1; 
+}
+
+.tema-nuevo h2 {
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.tema-nuevo a {
+    color: #66b2ff; 
+}
+
+.tema-nuevo aside {
+    background-color: #2c3e50;
+    border-color: #ecf0f1;
 }
